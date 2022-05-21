@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+
+.container img{
+
+    width: 450px;
+    height: 450px;
+    margin:  10px;
+    transition: all 0.5s;
+}
+.container img:hover{
+    transform: scale(1.1);
+}
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    
+    
+    justify-content: center;
+    
+    
+    
+}
+
+.titlep h1{
+    transition: all 1s;
+
+    
+    box-shadow:5px 5px 5px 5px  #888888 ;
+    margin-left: 40%;
+    width: 150px;
+    font-family: monospace;
+    
+    border-bottom: 12px solid pink ;
+    text-align: center;
+    }
+.titlep h1:hover{
+    transform: scale(1.2);
+}

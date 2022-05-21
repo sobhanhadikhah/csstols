@@ -10,10 +10,14 @@ body{
 .imglogo{
 
 margin-left: 35%;
+    transition: all 1s;
 
     width: 30%;
 
 
+}
+.imglogo:hover{
+    transform: scale(1.1);
 }
 img{
     margin-left: 10%;
