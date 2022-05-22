@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+body{
+
+    background-color: black;
+}
+
+
+.imglogo{
+
+margin-left: 35%;
+    transition: all 1s;
+
+    width: 30%;
+
+
+}
+.imglogo:hover{
+    transform: scale(1.1);
+}
+img{
+    margin-left: 10%;
+    width: 85%;
+
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    
+    
+
+    background-color: #44d62c ;
+    color: #000
+    ;
+    text-align: center;
+    font-size: 18px;
+    
+}
+#magnet{
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+
+    
+
+    background-color: #44d62c ;
+    color: #000
+    ;
+    text-align: center;
+    font-size: 18px;
+}
+footer{
+    clear: both;
+    color: #44d62c;
+    text-align: center;
+}
+.boxes{
+    border: 5px solid #44d62c;
+}
+#tsttsxt{
+    text-align: center;
+    color: #44d62c;
+}
+.boxme1 p{
+    color: #44d62c;
+    display: inline-block;
+    border: 5px solid #44d62c;
+    padding: 10px 5px 10px 5px ;
+    
+    
+}
+.boxme1 h6{
+    font-family: 'Kalam', cursive;
+
+    cursor: pointer;
+    padding: 7px;
+    background-color: #44d62c;
+    margin-left: 45%;
+    margin-right: 45%;
+    text-align: center;
+    font-size: 15px;
+    color: black ;
+    border-radius: 15px;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+#magnet span{
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* schroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #44d62c; 
+    border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #767676; 
+  }
